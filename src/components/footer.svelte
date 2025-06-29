@@ -19,7 +19,7 @@
 					Desa wisata yang menyajikan keindahan alam dan budaya lokal dengan suasana pedesaan yang
 					asri dan damai.
 				</p>
-				<p class="mt-4 text-sm text-slate-400">© 2025 Dusun Druju Tegal, All rights reserved.</p>
+				<p class="mt-4 text-sm text-slate-400">© 2025 Powered By Jeremy Kenneth Harnanto</p>
 			</div>
 
 			<!-- Contact Section -->
