@@ -1,6 +1,26 @@
 <script>
+	import ProductCard from './product_card.svelte';
 	import Sectionwrapper from './sectionwrapper.svelte';
-	let productFeatures = [];
+	let productFeatures = [
+		{
+			featureList: ['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4'],
+			description:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			imgUrl: 'https://via.placeholder.com/150'
+		},
+		{
+			featureList: ['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4'],
+			description:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			imgUrl: 'https://via.placeholder.com/150'
+		},
+		{
+			featureList: ['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4'],
+			description:
+				'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			imgUrl: 'https://via.placeholder.com/150'
+		}
+	];
 </script>
 
 <Sectionwrapper id="product">
@@ -17,13 +37,19 @@
 				<span class="text-indigo-400">Test</span> Product
 			</h3>
 		</div>
-		<div class="relative grid grid-cols-1 gap-14 text-base md:grid-cols-2 md:gap-14 lg:gap-20">
-			{#each productFeatures as feature}
-				<div class="flex flex-col gap-4">
-					<h4 class="text-lg font-semibold">{feature.title}</h4>
-					<p class="text-gray-600">{feature.description}</p>
-				</div>
-			{/each}
-		</div>
+		{#each productFeatures as productFeature, index}
+			<ProductCard {productFeature} {index}>
+				{#if index === 0}
+				Example Product 1 <span class="text-indigo-400">Test</span>
+				{:else if index === 3}
+				{:else if index === 2}
+				Example Product 3
+				{:else if index === 1}
+				Example Product 2
+				{:else}
+				Example Product 2
+				{/if}
+			</ProductCard>
+		{/each}
 	</div>
 </Sectionwrapper>

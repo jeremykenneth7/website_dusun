@@ -19,7 +19,7 @@
                 class="flex min-h-[80vh] flex-1 flex-col items-center justify-center gap-10 pb-10 md:pb-14"
             >
                 <h2
-                    class="mx-auto w-full max-w-[1200px] text-center text-5xl font-semibold text-white sm:text-6xl md:text-7xl lg:text-8xl"
+                    class="mx-auto w-full max-w-[1200px] text-center text-4xl font-semibold text-white sm:text-5xl md:text-6xl lg:text-7xl"
                 >
                     <span class="text-indigo-400">Selamat Datang</span> di Website
                     <span class="text-gray-200">Dusun Druju Tegal</span>
