@@ -6,7 +6,7 @@
 
 <div
     class="relative min-h-screen bg-cover bg-center bg-no-repeat"
-    style="background-image: url('/desa.jpg');"
+    style="background-image: url('/desa_indonesia.jpg');"
 >
     <!-- Overlay untuk readability -->
     <div class="absolute inset-0 bg-black/40"></div>

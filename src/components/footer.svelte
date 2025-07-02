@@ -67,7 +67,7 @@
 					<span>Instagram</span>
 				</a>
 				<a
-					href="#"
+					href="#instagram"
 					class="group flex items-center gap-3 text-slate-300 transition-all duration-300 hover:translate-x-1 hover:text-blue-400"
 				>
 					<div
