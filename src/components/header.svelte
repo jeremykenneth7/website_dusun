@@ -23,9 +23,9 @@
 				>Review</a
 			>
 			<a href="#map" class="cursor-pointer font-semibold text-black duration-200 hover:text-indigo-400">Map</a>
-			<button class={'specialBtn'}>
+			<!-- <button class={'specialBtn'}>
 				<p>Button</p>
-			</button>
+			</button> -->
 		</nav>
 	</div>
 </header>
