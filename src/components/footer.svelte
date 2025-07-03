@@ -19,7 +19,7 @@
 					Desa wisata yang menyajikan keindahan alam dan budaya lokal dengan suasana pedesaan yang
 					asri dan damai.
 				</p>
-				<p class="mt-4 text-sm text-slate-400">© 2025 Powered By Jeremy Kenneth Harnanto</p>
+				<p class="mt-4 text-sm text-slate-400">© 2025 Powered By Jeremy Kenneth from KKN AA.83.023</p>
 			</div>
 
 			<!-- Contact Section -->
@@ -36,7 +36,7 @@
 					>
 						<i class="fa fa-phone text-sm"></i>
 					</div>
-					<span>081234567890</span>
+					<span>082329082780</span>
 				</a>
 				<a
 					href="mailto:drujutegal@gmail.com"
@@ -76,33 +76,6 @@
 						<i class="fa-brands fa-facebook text-sm"></i>
 					</div>
 					<span>Facebook</span>
-				</a>
-			</div>
-
-			<!-- Support Section -->
-			<div class="flex flex-col gap-4">
-				<h3 class="mb-2 border-b border-slate-700 pb-2 text-lg font-bold text-white">Support</h3>
-				<a
-					href="/contact"
-					class="group flex items-center gap-3 text-slate-300 transition-all duration-300 hover:translate-x-1 hover:text-indigo-400"
-				>
-					<div
-						class="flex h-8 w-8 items-center justify-center rounded-full bg-slate-700 transition-colors group-hover:bg-indigo-500"
-					>
-						<i class="fa fa-headset text-sm"></i>
-					</div>
-					<span>Contact Us</span>
-				</a>
-				<a
-					href="/help"
-					class="group flex items-center gap-3 text-slate-300 transition-all duration-300 hover:translate-x-1 hover:text-indigo-400"
-				>
-					<div
-						class="flex h-8 w-8 items-center justify-center rounded-full bg-slate-700 transition-colors group-hover:bg-indigo-500"
-					>
-						<i class="fa fa-question-circle text-sm"></i>
-					</div>
-					<span>Help Center</span>
 				</a>
 			</div>
 		</div>
