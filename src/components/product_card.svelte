@@ -18,7 +18,7 @@
 					>
 						<i class="fa-solid fa-bolt text-green-400"></i>
 					</div>
-                    <p>{listitem}</p>
+					<p>{listitem}</p>
 				</div>
 			{/each}
 		</div>

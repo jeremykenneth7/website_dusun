@@ -40,15 +40,15 @@
 		{#each productFeatures as productFeature, index}
 			<ProductCard {productFeature} {index}>
 				{#if index === 0}
-				Example Product 1 <span class="text-indigo-400">Test</span>
+					Example Product 1 <span class="text-indigo-400">Test</span>
 				{:else if index === 3}
-				Example Product 4
+					Example Product 4
 				{:else if index === 2}
-				Example Product 3
+					Example Product 3
 				{:else if index === 1}
-				Example Product 2
+					Example Product 2
 				{:else}
-				Example Product 2
+					Example Product 2
 				{/if}
 			</ProductCard>
 		{/each}

@@ -78,6 +78,33 @@
 					<span>Facebook</span>
 				</a>
 			</div>
+
+			<!-- Nomor Telepon Section -->
+			<div class="flex flex-col gap-4">
+				<h3 class="mb-2 border-b border-slate-700 pb-2 text-lg font-bold text-white">No Telpon Penting</h3>
+				<a
+					href="tel:+6281234567890"
+					class="group flex items-center gap-3 text-slate-300 transition-all duration-300 hover:translate-x-1 hover:text-indigo-400"
+				>
+					<div
+						class="flex h-8 w-8 items-center justify-center rounded-full bg-slate-700 transition-colors group-hover:bg-indigo-500"
+					>
+						<i class="fa fa-headset text-sm"></i>
+					</div>
+					<span class="font text-xs">Muklis/Kadus Drujutegal</span>
+				</a>
+				<!-- <a
+					href="tel:+6281234567890"
+					class="group flex items-center gap-3 text-slate-300 transition-all duration-300 hover:translate-x-1 hover:text-indigo-400"
+				>
+					<div
+						class="flex h-8 w-8 items-center justify-center rounded-full bg-slate-700 transition-colors group-hover:bg-indigo-500"
+					>
+						<i class="fa fa-question-circle text-sm"></i>
+					</div>
+					<span class="font text-xs">Galang/Bendahara Desa</span>
+				</a> -->
+			</div>
 		</div>
 	</div>
 </footer>
