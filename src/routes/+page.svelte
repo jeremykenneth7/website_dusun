@@ -6,6 +6,6 @@
 
 <main class="flex flex-col">
 	<Hero />
-	<Product />
+	<!-- <Product /> -->
 	<Map />
 </main>
