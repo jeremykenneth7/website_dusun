@@ -16,16 +16,19 @@
 			<i class="fa-solid fa-bars"></i>
 		</button>
 		<nav class="hidden items-center gap-4 md:flex lg:gap-6">
-			<a href="#product" class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400"
-				>Product</a
+			<a
+				href="#product"
+				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400"
+				>Produk</a
 			>
-			<a href="#review" class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400"
-				>Review</a
+			<a
+				href="#review"
+				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400">Review</a
 			>
-			<a href="#map" class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400">Map</a>
-			<!-- <button class={'specialBtn'}>
-				<p>Button</p>
-			</button> -->
+			<a
+				href="#map"
+				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400">Peta Dusun</a
+			>
 		</nav>
 	</div>
 </header>
