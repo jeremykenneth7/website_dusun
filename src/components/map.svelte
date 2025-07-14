@@ -19,7 +19,10 @@
 </script>
 
 <SectionWrapper id="map" class="pb-0">
-    <h2 class="text-xl font-semibold text-center">Peta Desa</h2>
+    <h2 class="text-3xl font-bold text-left ml-32 mt-2">PETA ADMINISTRATIF DUSUN DRUJU TEGAL</h2>
+    <h3 class="text-xl text-left ml-32">
+        Peta interaktif yang menampilkan lokasi penting di Dusun Druju Tegal.
+    </h3>
     <div
         bind:this={mapDiv}
         style="height: 400px; width: 100%; max-width: 900px; margin: 1rem auto; border-radius: 12px;"
