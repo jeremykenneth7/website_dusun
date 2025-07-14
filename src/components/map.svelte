@@ -19,6 +19,7 @@
 </script>
 
 <SectionWrapper id="map" class="pb-0">
+    <h2 class="text-xl font-semibold text-center">Peta Desa</h2>
     <div
         bind:this={mapDiv}
         style="height: 400px; width: 100%; max-width: 900px; margin: 1rem auto; border-radius: 12px;"
