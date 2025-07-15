@@ -16,10 +16,12 @@
 					<div class="h-1 w-16 rounded bg-gradient-to-r from-indigo-400 to-purple-500"></div>
 				</div>
 				<p class="leading-relaxed text-slate-300">
-					Desa wisata yang menyajikan keindahan alam dan budaya lokal dengan suasana pedesaan yang
-					asri dan damai.
+					Website resmi Dusun Druju Tegal — Sentra Slondok khas yang dikelola oleh warga lokal
+					dengan cita rasa tradisional dan semangat UMKM desa.
 				</p>
-				<p class="mt-4 text-sm text-slate-400">© 2025 Powered By Jeremy Kenneth from KKN AA.83.023</p>
+				<p class="mt-4 text-sm text-slate-400">
+					© 2025 Powered By Jeremy Kenneth from KKN AA.83.023
+				</p>
 			</div>
 
 			<!-- Contact Section -->
@@ -81,7 +83,9 @@
 
 			<!-- Nomor Telepon Section -->
 			<div class="flex flex-col gap-4">
-				<h3 class="mb-2 border-b border-slate-700 pb-2 text-lg font-bold text-white">No Telpon Penting</h3>
+				<h3 class="mb-2 border-b border-slate-700 pb-2 text-lg font-bold text-white">
+					No Telpon Penting
+				</h3>
 				<a
 					href="tel:+6281234567890"
 					class="group flex items-center gap-3 text-slate-300 transition-all duration-300 hover:translate-x-1 hover:text-indigo-400"
