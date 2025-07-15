@@ -8,7 +8,7 @@
 		</a>
 	</button>
 	<button class={'specialBtnDark'}>
-		<a href="#product">
+		<a href="#sambutan">
 			<p class="text-base sm:text-lg md:text-xl">Mulai Sekarang &rarr;</p>
 		</a>
 	</button>

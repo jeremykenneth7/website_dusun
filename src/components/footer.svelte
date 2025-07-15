@@ -17,7 +17,7 @@
 				</div>
 				<p class="leading-relaxed text-slate-300">
 					Website resmi Dusun Druju Tegal — Sentra Slondok khas yang dikelola oleh warga lokal
-					dengan cita rasa tradisional dan semangat UMKM desa.
+					dengan cita rasa tradisional dan semangat UMKM lokal.
 				</p>
 				<p class="mt-4 text-sm text-slate-400">
 					© 2025 Powered By Jeremy Kenneth from KKN AA.83.023
