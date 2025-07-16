@@ -57,9 +57,6 @@
 				</p>
 			</button>
 		</div>
-		<div class="flex flex-col items-center justify-center">
-			<Contact />
-		</div>
 	</div>
 {/if}
 
