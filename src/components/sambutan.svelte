@@ -13,12 +13,18 @@
 </script>
 
 <SectionWrapper id="sambutan" class="pb-0">
-	<div class="mx-18 mt-5 max-w-xl px-6">
-		<h1 class="mb-2 text-4xl font-bold">{intro}</h1>
-		<h2 class="mb-2 text-2xl font-bold">{nama}</h2>
-		<h3 class="mb-2 text-lg text-gray-600">{jabatan}</h3>
-		<div class="h-64 overflow-y-auto rounded bg-white" style="max-height: 10rem;">
-			<div class="text-gray-800">{@html sambutan}</div>
-		</div>
-	</div>
+    <div class="mx-18 mt-16 flex max-w-4xl items-start gap-12 px-6">
+        <!-- Logo Dusun -->
+        <img src="/logo/logo_dusun.png" alt="Logo Dusun" class="h-1/3 w-1/3 rounded object-contain" />
+
+        <!-- Sambutan -->
+        <div>
+            <h1 class="mb-2 text-4xl font-bold">{intro}</h1>
+            <h2 class="mb-2 text-2xl font-bold">{nama}</h2>
+            <h3 class="mb-2 text-lg text-gray-600">{jabatan}</h3>
+            <div class="h-64 overflow-y-auto rounded bg-white" style="max-height: 10rem;">
+                <div class="text-gray-800">{@html sambutan}</div>
+            </div>
+        </div>
+    </div>
 </SectionWrapper>
