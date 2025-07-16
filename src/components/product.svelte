@@ -1,6 +1,6 @@
 <script>
 	import ProductCard from './product_card.svelte';
-	import Sectionwrapper from './sectionwrapper.svelte';
+	import Sectionwrapper from './SectionWrapper.svelte';
 	let productFeatures = [
 		{
 			featureList: ['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4'],

@@ -8,10 +8,10 @@
 		{ src: '/dokumentasi/photo_3.jpeg', caption: 'Penyambutan Haji' },
 		{ src: '/dokumentasi/photo_2.jpg', caption: 'Kerja Bakti' },
 		{ src: '/dokumentasi/photo_2.jpg', caption: 'Kegiatan 5' },
-        { src: '/dokumentasi/photo_2.jpg', caption: 'Kerja Bakti' },
+		{ src: '/dokumentasi/photo_2.jpg', caption: 'Kerja Bakti' },
 		{ src: '/dokumentasi/photo_2.jpg', caption: 'Kegiatan 5' },
-        { src: '/dokumentasi/photo_2.jpg', caption: 'Kerja Bakti' },
-		{ src: '/dokumentasi/photo_2.jpg', caption: 'Kegiatan 5' },
+		{ src: '/dokumentasi/photo_2.jpg', caption: 'Kerja Bakti' },
+		{ src: '/dokumentasi/photo_2.jpg', caption: 'Kegiatan 5' }
 	];
 
 	let slider;

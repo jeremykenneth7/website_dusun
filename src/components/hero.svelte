@@ -1,7 +1,7 @@
 <script>
     import Contact from './contact.svelte';
     import Header from './header.svelte';
-    import Sectionwrapper from './sectionwrapper.svelte';
+    import Sectionwrapper from './SectionWrapper.svelte';
     import { onMount } from 'svelte';
 
     const parts = [
