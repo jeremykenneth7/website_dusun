@@ -13,16 +13,19 @@
 </script>
 
 <Sectionwrapper id="sambutan" class="pb-0">
-	<div class="mx-18 mt-16 flex max-w-4xl items-start gap-12 px-6">
-		<!-- Logo Dusun -->
-		<img src="/logo/logo_dusun.png" alt="Logo Dusun" class="h-1/3 w-1/3 rounded object-contain" />
-
-		<!-- Sambutan -->
+	<div
+		class="mx-4 mt-8 flex max-w-4xl flex-col items-start gap-4 px-2 sm:mx-18 sm:mt-16 sm:flex-row sm:gap-12 sm:px-6"
+	>
+		<img
+			src="/logo/logo_dusun.png"
+			alt="Logo Dusun"
+			class="h-32 w-32 rounded object-contain sm:h-1/3 sm:w-1/3"
+		/>
 		<div>
-			<h1 class="mb-2 text-4xl font-bold">{intro}</h1>
-			<h2 class="mb-2 text-2xl font-bold">{nama}</h2>
-			<h3 class="mb-2 text-lg text-gray-600">{jabatan}</h3>
-			<div class="h-64 overflow-y-auto rounded bg-white" style="max-height: 10rem;">
+			<h1 class="mb-2 text-2xl font-bold sm:text-4xl">{intro}</h1>
+			<h2 class="mb-2 text-lg font-bold sm:text-2xl">{nama}</h2>
+			<h3 class="mb-2 text-base text-gray-600 sm:text-lg">{jabatan}</h3>
+			<div class="h-40 overflow-y-auto rounded bg-white sm:h-64" style="max-height: 10rem;">
 				<div class="text-gray-800">{@html sambutan}</div>
 			</div>
 		</div>
