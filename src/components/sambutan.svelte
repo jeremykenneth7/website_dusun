@@ -14,7 +14,7 @@
 
 <Sectionwrapper id="sambutan" class="pb-0">
 	<div
-		class="mx-4 mt-8 flex max-w-4xl flex-col items-start gap-4 px-2 sm:mx-18 sm:mt-16 sm:flex-row sm:gap-12 sm:px-6"
+		class="mx-4 mt-8 flex max-w-4xl flex-col items-start gap-2 px-2 sm:mx-18 sm:mt-16 sm:flex-row sm:gap-12 sm:px-6"
 	>
 		<img
 			src="/logo/logo_dusun.png"
@@ -23,7 +23,7 @@
 		/>
 		<div>
 			<h1 class="mb-2 text-2xl font-bold sm:text-4xl">{intro}</h1>
-			<h2 class="mb-2 text-lg font-bold sm:text-2xl">{nama}</h2>
+			<h2 class="mb-1 text-lg font-bold sm:text-2xl">{nama}</h2>
 			<h3 class="mb-2 text-base text-gray-600 sm:text-lg">{jabatan}</h3>
 			<div
 				class="h-40 overflow-y-scroll rounded bg-white sm:h-64"

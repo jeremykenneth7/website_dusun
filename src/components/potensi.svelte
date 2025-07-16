@@ -3,7 +3,9 @@
 </script>
 
 <Sectionwrapper id="potensi" class="pb-0">
-	<div class="mx-18 max-w-xl p-6">
+	<div
+		class="mx-4 mt-8 flex max-w-4xl flex-col items-start px-2 sm:mx-18 sm:mt-16 sm:flex-row sm:gap-12 sm:px-6"
+	>
 		<h2 class="text-left text-3xl font-bold">POTENSI DUSUN</h2>
 		<h3 class="mb-4 text-xl">
 			Dusun Druju Tegal memiliki beberapa potensi unggulan, di antaranya:

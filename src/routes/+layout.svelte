@@ -63,12 +63,12 @@
 	</div>
 {/if}
 
-{#if y > outerHeight}
-    <div
-        class="fadeIn fixed top-0 left-0 z-50 flex w-full flex-col bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 px-4"
-    >
-        <Header />
-    </div>
+{#if y > outerHeight && !$openModal}
+	<div
+		class="fadeIn fixed top-0 left-0 z-50 flex w-full flex-col bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 px-4"
+	>
+		<Header />
+	</div>
 {/if}
 <slot />
 <Footer />
