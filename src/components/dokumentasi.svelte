@@ -1,5 +1,5 @@
 <script>
-	import SectionWrapper from './SectionWrapper.svelte';
+	import Sectionwrapper from './sectionwrapper.svelte';
 	import 'keen-slider/keen-slider.min.css';
 	import { onMount } from 'svelte';
 	let dokumentasi = [
@@ -27,7 +27,7 @@
 	});
 </script>
 
-<SectionWrapper id="dokumentasi" class="pb-0">
+<Sectionwrapper id="dokumentasi" class="pb-0">
 	<div class="mx-16 max-w-xl px-8">
 		<h2 class="mt-2 text-left text-3xl font-bold">DOKUMENTASI KEGIATAN DUSUN</h2>
 		<h3 class="mb-2 text-left text-xl">Beberapa dokumentasi di Dusun Druju Tegal.</h3>
@@ -49,4 +49,4 @@
 			{/each}
 		</div>
 	</div>
-</SectionWrapper>
+</Sectionwrapper>

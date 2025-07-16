@@ -1,8 +1,8 @@
 <script>
-	import SectionWrapper from './SectionWrapper.svelte';
+	import Sectionwrapper from './sectionwrapper.svelte';
 </script>
 
-<SectionWrapper id="potensi" class="pb-0">
+<Sectionwrapper id="potensi" class="pb-0">
 	<div class="mx-18 max-w-xl p-6">
 		<h2 class="text-left text-3xl font-bold">POTENSI DUSUN</h2>
 		<h3 class="mb-4 text-xl">
@@ -17,8 +17,8 @@
 				/>
 				<h4 class="mb-2 text-lg font-semibold">Slondok</h4>
 				<p class="text-center text-gray-700">
-					Slondok merupakan makanan ringan khas berbahan dasar
-					singkong. Produk ini menjadi salah satu ikon kuliner Dusun Druju Tegal.
+					Slondok merupakan makanan ringan khas berbahan dasar singkong. Produk ini menjadi salah
+					satu ikon kuliner Dusun Druju Tegal.
 				</p>
 			</div>
 			<div class="flex flex-col items-center rounded-lg bg-white p-6 shadow-md">
@@ -29,10 +29,10 @@
 				/>
 				<h4 class="mb-2 text-lg font-semibold">Pupuk Kompos</h4>
 				<p class="text-center text-gray-700">
-					Pupuk kompos dihasilkan dari residu pembakaran sampah oleh warga dusun. Pupuk Kompos ini dapat
-					membantu untuk meningkatkan kualitas pertanian.
+					Pupuk kompos dihasilkan dari residu pembakaran sampah oleh warga dusun. Pupuk Kompos ini
+					dapat membantu untuk meningkatkan kualitas pertanian.
 				</p>
 			</div>
 		</div>
 	</div>
-</SectionWrapper>
+</Sectionwrapper>

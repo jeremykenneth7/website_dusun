@@ -1,6 +1,6 @@
 <script>
     import { onMount } from 'svelte';
-    import SectionWrapper from './SectionWrapper.svelte';
+    import Sectionwrapper from './sectionwrapper.svelte';
     let mapDiv;
     let map;
 
@@ -18,7 +18,7 @@
     export { map };
 </script>
 
-<SectionWrapper id="map2" class="pb-0">
+<Sectionwrapper id="map2" class="pb-0">
     <div style="max-width: 900px; margin: 1rem 0 1rem 6rem;">
         <h2 class="text-3xl font-bold text-left mt-2">PETA RAWAN BENCANA DUSUN DRUJU TEGAL</h2>
         <h3 class="text-xl text-left">
@@ -29,4 +29,4 @@
             style="height: 400px; width: 100%; border-radius: 12px; margin-top: 1rem;"
         ></div>
     </div>
-</SectionWrapper>
+</Sectionwrapper>
