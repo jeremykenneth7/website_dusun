@@ -24,7 +24,7 @@
 </script>
 
 <SectionWrapper id="dokumentasi" class="pb-0">
-	<div class="mx-18 max-w-xl px-8">
+	<div class="mx-16 max-w-xl px-8">
 		<h2 class="mt-2 text-left text-3xl font-bold">DOKUMENTASI KKN</h2>
 		<h3 class="mb-2 text-left text-xl">Beberapa dokumentasi kegiatan KKN di Dusun Druju Tegal.</h3>
 	</div>

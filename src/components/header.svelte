@@ -5,7 +5,7 @@
 <header class="relative z-20 flex flex-col">
 	<div class="mx-auto flex w-full max-w-[1400px] items-center justify-between px-4 py-2">
 		<a href="/" class="flex items-center gap-4">
-			<img src="/logo.png" alt="Logo Dusun Druju Tegal" class="h-20 w-20" />
+			<img src="/logo/logo_dusun.png" alt="Logo Dusun Druju Tegal" class="h-20 w-20" />
 			<div class="flex flex-col">
 				<h1 class="font-semibold">
 					<span class="text-white">Dusun Druju Tegal</span>
