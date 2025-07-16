@@ -24,17 +24,17 @@
 		</button>
 		<nav class="hidden items-center gap-4 md:flex lg:gap-6">
 			<a
-				href="#product"
-				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400">Produk</a
-			>
-			<a
-				href="#review"
-				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400">Review</a
-			>
-			<a
 				href="#map"
+				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400">Peta Administrasi</a
+			>
+			<a
+				href="#potensi"
+				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400">Potensi</a
+			>
+			<a
+				href="#dokumentasi"
 				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400"
-				>Peta Dusun</a
+				>Dokumentasi</a
 			>
 		</nav>
 	</div>

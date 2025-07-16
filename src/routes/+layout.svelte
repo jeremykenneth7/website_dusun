@@ -33,27 +33,27 @@
 		</div>
 		<div class="flex flex-1 flex-col gap-4">
 			<button
-				on:click={() => reroute('#product')}
-				class="group cursor-pointer border-none p-2 text-left duration-200 outline-none"
-			>
-				<p class="poppins text-3xl font-semibold duration-200 group-hover:pl-2">
-					Product<i class="fa-solid fa-chevron-right pl-4 text-xl"></i>
-				</p>
-			</button>
-			<button
-				on:click={() => reroute('#review')}
-				class="group cursor-pointer border-none p-2 text-left duration-200 outline-none"
-			>
-				<p class="poppins text-3xl font-semibold duration-200 group-hover:pl-2">
-					Review <i class="fa-solid fa-chevron-right pl-4 text-xl"></i>
-				</p>
-			</button>
-			<button
 				on:click={() => reroute('#map')}
 				class="group cursor-pointer border-none p-2 text-left duration-200 outline-none"
 			>
-				<p class="poppins text-3xl font-semibold duration-200 group-hover:pl-2">
-					Map<i class="fa-solid fa-chevron-right pl-4 text-xl"></i>
+				<p class="poppins text-2xl font-semibold duration-200 group-hover:pl-2">
+					Peta Administrasi<i class="fa-solid fa-chevron-right pl-4 text-xl"></i>
+				</p>
+			</button>
+			<button
+				on:click={() => reroute('#potensi')}
+				class="group cursor-pointer border-none p-2 text-left duration-200 outline-none"
+			>
+				<p class="poppins text-2xl font-semibold duration-200 group-hover:pl-2">
+					Potensi <i class="fa-solid fa-chevron-right pl-4 text-xl"></i>
+				</p>
+			</button>
+			<button
+				on:click={() => reroute('#dokumentasi')}
+				class="group cursor-pointer border-none p-2 text-left duration-200 outline-none"
+			>
+				<p class="poppins text-2xl font-semibold duration-200 group-hover:pl-2">
+					Dokumentasi<i class="fa-solid fa-chevron-right pl-4 text-xl"></i>
 				</p>
 			</button>
 		</div>
