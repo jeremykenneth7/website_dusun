@@ -5,13 +5,13 @@
 <header class="relative z-20 flex flex-col">
 	<div class="mx-auto flex w-full max-w-[1400px] items-center justify-between px-4 py-2">
 		<a href="/" class="flex items-center gap-4">
-			<img src="/logo_dusun.png" alt="Logo Dusun Druju Tegal" class="h-20 w-20" />
+			<img src="/logo.png" alt="Logo Dusun Druju Tegal" class="h-20 w-20" />
 			<div class="flex flex-col">
 				<h1 class="font-semibold">
 					<span class="text-white">Dusun Druju Tegal</span>
 				</h1>
 				<h1 class="font-xs">
-					<span class="text-white">Plosogede, Kec. Ngluwar, Kabupaten Magelang, Jawa Tengah</span>
+					<span class="text-white">Desa Plosogede, Kecamatan Ngluwar, Kabupaten Magelang, Jawa Tengah</span>
 				</h1>
 			</div>
 		</a>

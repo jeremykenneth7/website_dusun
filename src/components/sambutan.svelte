@@ -1,18 +1,14 @@
 <script>
 	import SectionWrapper from './SectionWrapper.svelte';
-	const intro = 'Sambutan Dosen Pembimbing Lapangan';
-	const nama = 'Isbandi Sutrisno, S.Sos, M.Si.';
-	const jabatan = 'Dosen Pembimbing Lapangan';
+	const intro = 'Sambutan Kepala Dusun Druju Tegal';
+	const nama = 'Mukhlis Arifin';
+	const jabatan = 'Kepala Dusun Druju Tegal';
 	const sambutan = `
     <b>Assalamu'alaikum Warahmatullahi Wabarakatuh</b><br>
-        Selamat datang di Website Dusun Druju Tegal. 
-        Saya sangat mengapresiasi semangat dan kerja keras seluruh tim KKN dalam membangun dan mengembangkan potensi desa ini.
-        Semoga website ini dapat menjadi sarana informasi dan komunikasi yang bermanfaat bagi masyarakat dan pihak terkait.
-        Teruslah berkarya dan berinovasi demi kemajuan bersama.
-        Salam hangat dan sukses selalu untuk kita semua.
-        <br><br>
-        <b>Hormat saya,<br>
-        Isbandi Sutrisno, S.Sos, M.Si.</b>
+		Selamat datang di website resmi Dusun Druju Tegal. Website ini dibuat sebagai sarana informasi dan komunikasi bagi warga dusun kami. Kami berharap dengan adanya website ini, informasi mengenai kegiatan, produk, peta, dan potensi yang ada di Dusun Druju Tegal dapat lebih mudah diakses oleh masyarakat luas.<br>
+        <br>
+        <b>Kepala Dusun Druju Tegal<br>
+        Mukhlis Arifin</b>
     `;
 </script>
 
