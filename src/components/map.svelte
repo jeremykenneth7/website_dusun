@@ -19,7 +19,7 @@
 </script>
 
 <Sectionwrapper id="map" class="pb-0">
-	<div style="max-width: 900px; margin: 1rem 0 1rem 6rem;">
+	<div class="mx-4 flex max-w-4xl flex-col items-start px-2 sm:mx-18 sm:px-6">
 		<h2 class="mt-2 text-left text-3xl font-bold">PETA ADMINISTRATIF DUSUN DRUJU TEGAL</h2>
 		<h3 class="text-left text-xl">
 			Peta interaktif yang menampilkan lokasi penting di Dusun Druju Tegal.

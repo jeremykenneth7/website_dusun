@@ -22,7 +22,7 @@
 		slider = new KeenSlider(sliderRef, {
 			breakpoints: {
 				'(max-width: 640px)': {
-					slides: { perView: 2, spacing: 10 }
+					slides: { perView: 2, spacing: 2 }
 				}
 			},
 			slides: { perView: 3, spacing: 16 },
@@ -33,7 +33,7 @@
 </script>
 
 <Sectionwrapper id="dokumentasi" class="pb-0">
-	<div class="mx-0 flex max-w-full flex-col items-start px-2 sm:mx-18 sm:px-6">
+	<div class="mx-4 flex max-w-4xl flex-col items-start px-2 sm:mx-18 sm:px-6">
 		<h2 class="mb-1 text-left text-2xl font-bold sm:text-3xl">DOKUMENTASI KEGIATAN DUSUN</h2>
 		<h3 class="mb-2 text-left text-base sm:text-xl">
 			Beberapa dokumentasi kegiatan yang berada di Dusun Druju Tegal.

@@ -14,7 +14,7 @@
 
 <Sectionwrapper id="sambutan" class="pb-0">
 	<div
-		class="mx-4 mt-8 flex max-w-4xl flex-col items-start gap-2 px-2 sm:mx-18 sm:mt-16 sm:flex-row sm:gap-12 sm:px-6"
+		class="mx-4 flex max-w-4xl flex-col items-start gap-2 px-2 sm:mx-18 sm:mt-16 sm:flex-row sm:gap-12 sm:px-6"
 	>
 		<img
 			src="/logo/logo_dusun.png"
