@@ -13,6 +13,6 @@
 	<Sambutan />
 	<Map />
 	<Map_2 />
-	<Dokumentasi />
 	<Potensi />
+	<Dokumentasi />
 </main>
