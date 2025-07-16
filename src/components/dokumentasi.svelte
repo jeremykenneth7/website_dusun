@@ -1,43 +1,43 @@
 <script>
-    import Sectionwrapper from './sectionwrapper.svelte';
-    import 'keen-slider/keen-slider.min.css';
-    import { onMount } from 'svelte';
-    let dokumentasi = [
-        { src: '/dokumentasi/photo_1.jpg', caption: 'Colouring Day' },
-        { src: '/dokumentasi/photo_2.jpg', caption: 'Rapat Bersama Warga' },
-        { src: '/dokumentasi/photo_3.jpeg', caption: 'Penyambutan Haji' },
-        { src: '/dokumentasi/photo_2.jpg', caption: 'Kerja Bakti' },
-        { src: '/dokumentasi/photo_2.jpg', caption: 'Kegiatan 5' },
-        { src: '/dokumentasi/photo_2.jpg', caption: 'Kerja Bakti' },
-        { src: '/dokumentasi/photo_2.jpg', caption: 'Kegiatan 5' },
-        { src: '/dokumentasi/photo_2.jpg', caption: 'Kerja Bakti' },
-        { src: '/dokumentasi/photo_2.jpg', caption: 'Kegiatan 5' }
-    ];
+	import Sectionwrapper from './sectionwrapper.svelte';
+	import 'keen-slider/keen-slider.min.css';
+	import { onMount } from 'svelte';
+	let dokumentasi = [
+		{ src: '/dokumentasi/photo_1.jpg', caption: 'Colouring Day' },
+		{ src: '/dokumentasi/photo_2.jpg', caption: 'Rapat Bersama Warga' },
+		{ src: '/dokumentasi/photo_3.jpeg', caption: 'Penyambutan Haji' },
+		{ src: '/dokumentasi/photo_2.jpg', caption: 'Kerja Bakti' },
+		{ src: '/dokumentasi/photo_2.jpg', caption: 'Kegiatan 5' },
+		{ src: '/dokumentasi/photo_2.jpg', caption: 'Kerja Bakti' },
+		{ src: '/dokumentasi/photo_2.jpg', caption: 'Kegiatan 5' },
+		{ src: '/dokumentasi/photo_2.jpg', caption: 'Kerja Bakti' },
+		{ src: '/dokumentasi/photo_2.jpg', caption: 'Kegiatan 5' }
+	];
 
-    let slider;
-    let sliderRef;
+	let slider;
+	let sliderRef;
 
-    onMount(async () => {
-        const KeenSlider = (await import('keen-slider')).default;
-        slider = new KeenSlider(sliderRef, {
-            breakpoints: {
-                '(max-width: 640px)': {
-                    slides: { perView: 2, spacing: 12 }
-                }
-            },
-            slides: { perView: 3, spacing: 16 },
-            loop: true
-        });
-        return () => slider.destroy();
-    });
+	onMount(async () => {
+		const KeenSlider = (await import('keen-slider')).default;
+		slider = new KeenSlider(sliderRef, {
+			breakpoints: {
+				'(max-width: 640px)': {
+					slides: { perView: 2, spacing: 12 }
+				}
+			},
+			slides: { perView: 3, spacing: 16 },
+			loop: true
+		});
+		return () => slider.destroy();
+	});
 </script>
 
 <Sectionwrapper id="dokumentasi" class="pb-0">
-	<div
-		class="mx-2 mt-6 flex max-w-full flex-col items-start gap-2 px-2 sm:mx-18 sm:mt-16 sm:flex-row sm:gap-12 sm:px-6"
-	>
-		<h2 class="mt-2 text-left text-2xl font-bold sm:text-3xl">DOKUMENTASI KEGIATAN DUSUN</h2>
-		<h3 class="mb-2 text-left text-base sm:text-xl">Beberapa dokumentasi di Dusun Druju Tegal.</h3>
+	<div class="mx-2 flex max-w-full flex-col items-start px-2 sm:mx-18 sm:px-6">
+		<h2 class="mb-1 text-left text-2xl font-bold sm:text-3xl">DOKUMENTASI KEGIATAN DUSUN</h2>
+		<h3 class="mb-2 text-left text-base sm:text-xl">
+			Beberapa dokumentasi kegiatan yang berada di Dusun Druju Tegal.
+		</h3>
 	</div>
 
 	<div class="container mx-0 sm:mx-22">
