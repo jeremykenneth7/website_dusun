@@ -1,4 +1,5 @@
 <script>
+	import Dokumentasi from '../components/dokumentasi.svelte';
 	import Hero from '../components/hero.svelte';
 	import Map from '../components/map.svelte';
 	import Map_2 from '../components/map_2.svelte';
@@ -11,4 +12,5 @@
 	<Sambutan />
 	<Map />
 	<Map_2 />
+	<Dokumentasi />
 </main>

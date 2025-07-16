@@ -20,7 +20,7 @@
 					dengan cita rasa tradisional dan semangat UMKM lokal.
 				</p>
 				<p class="mt-4 text-sm text-slate-400">
-					© 2025 Powered By Jeremy Kenneth from KKN AA.83.023
+					© 2025 Powered by Jeremy Kenneth from KKN AA.83.023
 				</p>
 			</div>
 
@@ -68,17 +68,6 @@
 					</div>
 					<span>Instagram</span>
 				</a>
-				<a
-					href="#instagram"
-					class="group flex items-center gap-3 text-slate-300 transition-all duration-300 hover:translate-x-1 hover:text-blue-400"
-				>
-					<div
-						class="flex h-8 w-8 items-center justify-center rounded-full bg-slate-700 transition-colors group-hover:bg-blue-500"
-					>
-						<i class="fa-brands fa-facebook text-sm"></i>
-					</div>
-					<span>Facebook</span>
-				</a>
 			</div>
 
 			<!-- Nomor Telepon Section -->
@@ -95,19 +84,8 @@
 					>
 						<i class="fa fa-headset text-sm"></i>
 					</div>
-					<span class="font text-xs">Muklis/Kadus Drujutegal</span>
+					<span class="font text-xs">Mukhlis/Kadus Drujutegal</span>
 				</a>
-				<!-- <a
-					href="tel:+6281234567890"
-					class="group flex items-center gap-3 text-slate-300 transition-all duration-300 hover:translate-x-1 hover:text-indigo-400"
-				>
-					<div
-						class="flex h-8 w-8 items-center justify-center rounded-full bg-slate-700 transition-colors group-hover:bg-indigo-500"
-					>
-						<i class="fa fa-question-circle text-sm"></i>
-					</div>
-					<span class="font text-xs">Galang/Bendahara Desa</span>
-				</a> -->
 			</div>
 		</div>
 	</div>

@@ -13,7 +13,7 @@
 </script>
 
 <SectionWrapper id="sambutan" class="pb-0">
-	<div class="mx-18 mt-5 max-w-xl p-6">
+	<div class="mx-18 mt-5 max-w-xl px-6">
 		<h1 class="mb-2 text-4xl font-bold">{intro}</h1>
 		<h2 class="mb-2 text-2xl font-bold">{nama}</h2>
 		<h3 class="mb-2 text-lg text-gray-600">{jabatan}</h3>
