@@ -41,6 +41,14 @@
 				</p>
 			</button>
 			<button
+				on:click={() => reroute('#struktur_dusun')}
+				class="group cursor-pointer border-none p-2 text-left duration-200 outline-none"
+			>
+				<p class="poppins text-2xl font-semibold duration-200 group-hover:pl-2">
+					Struktur Dusun <i class="fa-solid fa-chevron-right pl-4 text-xl"></i>
+				</p>
+			</button>
+			<button
 				on:click={() => reroute('#potensi')}
 				class="group cursor-pointer border-none p-2 text-left duration-200 outline-none"
 			>

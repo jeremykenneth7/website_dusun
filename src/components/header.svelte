@@ -11,7 +11,9 @@
 					<span class="text-white">Dusun Druju Tegal</span>
 				</h1>
 				<h1 class="font-xs">
-					<span class="text-white">Desa Plosogede, Kecamatan Ngluwar, Kabupaten Magelang, Jawa Tengah</span>
+					<span class="text-white"
+						>Desa Plosogede, Kecamatan Ngluwar, Kabupaten Magelang, Jawa Tengah</span
+					>
 				</h1>
 			</div>
 		</a>
@@ -25,11 +27,19 @@
 		<nav class="hidden items-center gap-4 md:flex lg:gap-6">
 			<a
 				href="#map"
-				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400">Peta Administrasi</a
+				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400"
+				>Peta Administrasi</a
+			>
+
+			<a
+				href="#struktur_dusun"
+				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400"
+				>Struktur Dusun</a
 			>
 			<a
 				href="#potensi"
-				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400">Potensi</a
+				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400"
+				>Potensi Dusun</a
 			>
 			<a
 				href="#dokumentasi"
