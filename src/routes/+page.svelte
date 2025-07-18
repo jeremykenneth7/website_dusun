@@ -6,6 +6,8 @@
 	import Potensi from '../components/potensi.svelte';
 	import Product from '../components/product.svelte';
 	import Sambutan from '../components/sambutan.svelte';
+	import StrukturDusun from '../components/struktur_dusun.svelte';
+	import StrukturPemuda from '../components/struktur_pemuda.svelte';
 </script>
 
 <main class="flex flex-col">
@@ -15,4 +17,6 @@
 	<Map_2 />
 	<Potensi />
 	<Dokumentasi />
+	<StrukturDusun />
+	<StrukturPemuda />
 </main>
