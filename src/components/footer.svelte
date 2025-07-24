@@ -95,7 +95,7 @@
 					>
 						<i class="fa fa-headset text-sm"></i>
 					</div>
-					<span class="font text-xs">Mukhlis/Kadus Drujutegal</span>
+					<span class="font text-sm">Mukhlis/Kadus Drujutegal</span>
 				</a>
 			</div>
 		</div>

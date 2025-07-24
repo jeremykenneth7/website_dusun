@@ -1,4 +1,5 @@
 <script>
+	import Administrasi from '../components/administrasi.svelte';
 	import Dokumentasi from '../components/dokumentasi.svelte';
 	import Hero from '../components/hero.svelte';
 	import Map from '../components/map.svelte';
@@ -17,6 +18,7 @@
 	<Map_2 />
 	<StrukturDusun />
 	<StrukturPemuda />
+	<Administrasi />
 	<Potensi />
 	<Dokumentasi />
 </main>

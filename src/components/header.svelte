@@ -12,7 +12,7 @@
 				</h1>
 				<h1 class="font-xs">
 					<span class="text-white"
-						>Desa Plosogede, Kecamatan Ngluwar, Kabupaten Magelang, Jawa Tengah</span
+						>Kabupaten Magelang</span
 					>
 				</h1>
 			</div>
