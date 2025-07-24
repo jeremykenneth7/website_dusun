@@ -15,6 +15,18 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Dusun Druju Tegal Plosogede - Profil, Potensi, Dokumentasi</title>
+	<meta
+		name="description"
+		content="Website resmi Dusun Druju Tegal Plosogede. Informasi administrasi, potensi, dokumentasi, dan struktur dusun."
+	/>
+	<meta
+		name="keywords"
+		content="dusun drujutegal, drujutegal, dusun drujutegal plosogede, desa plosogede, profil dusun, administrasi dusun"
+	/>
+</svelte:head>
+
 {#if $openModal}
 	<div
 		class="fixed top-0 left-0 z-50 flex h-screen w-screen flex-col gap-8 border-b bg-white p-5 px-8 md:hidden"
