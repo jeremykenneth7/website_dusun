@@ -15,8 +15,8 @@
 	<Sambutan />
 	<Map />
 	<Map_2 />
-	<Potensi />
-	<Dokumentasi />
 	<StrukturDusun />
 	<StrukturPemuda />
+	<Potensi />
+	<Dokumentasi />
 </main>

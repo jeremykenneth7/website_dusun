@@ -10,5 +10,7 @@
 			Struktur organisasi pemuda Dusun Druju Tegal yang berperan dalam kegiatan sosial dan
 			pembangunan komunitas.
 		</h3>
+		<br>
+		<img src="/struktur/struktur_pemuda.png" alt="Struktur Organisasi Pemuda Dusun Druju Tegal" />
 	</div>
 </Sectionwrapper>

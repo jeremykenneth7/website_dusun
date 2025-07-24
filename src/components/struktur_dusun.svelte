@@ -10,5 +10,7 @@
 			Struktur organisasi dan kepengurusan Dusun Druju Tegal yang berperan dalam pengelolaan dan
 			pembangunan wilayah.
 		</h3>
+		<br>
+		<img src="/struktur/struktur_dusun.png" alt="Struktur Organisasi Dusun Druju Tegal" />
 	</div>
 </Sectionwrapper>

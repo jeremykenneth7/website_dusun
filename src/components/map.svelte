@@ -9,6 +9,6 @@
 			Peta administratif yang menampilkan lokasi penting di Dusun Druju Tegal.
 		</h3>
 		<br>
-		<img src="/peta/peta_administratif.jpg" alt="Peta Administratif Dusun Druju Tegal" />
+		<img src="/peta/peta_admin.jpg" alt="Peta Administratif Dusun Druju Tegal" />
 	</div>
 </Sectionwrapper>

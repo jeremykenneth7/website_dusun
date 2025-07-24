@@ -41,7 +41,7 @@
 					<span>082329082780</span>
 				</a>
 				<a
-					href="mailto:drujutegal@gmail.com"
+					href="mailto:dusundrujutegal@gmail.com"
 					class="group flex items-center gap-3 text-slate-300 transition-all duration-300 hover:translate-x-1 hover:text-indigo-400"
 				>
 					<div
@@ -49,7 +49,18 @@
 					>
 						<i class="fa fa-envelope text-sm"></i>
 					</div>
-					<span class="text-sm break-all">drujutegal@gmail.com</span>
+					<span class="text-sm break-all">dusundrujutegal@gmail.com</span>
+				</a>
+				<a
+					href="mailto:dusundrujutegal@gmail.com"
+					class="group flex items-center gap-3 text-slate-300 transition-all duration-300 hover:translate-x-1 hover:text-indigo-400"
+				>
+					<div
+						class="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-slate-700 transition-colors group-hover:bg-indigo-500"
+					>
+						<i class="fa fa-envelope text-sm"></i>
+					</div>
+					<span class="text-sm break-all">ippdtrebornfrom2022@gmail.com</span>
 				</a>
 			</div>
 
