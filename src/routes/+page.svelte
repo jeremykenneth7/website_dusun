@@ -21,6 +21,7 @@
 	<StrukturDusun />
 	<StrukturPemuda />
 	<Administrasi />
+	<Product />
 	<Potensi />
 	<Dokumentasi />
 	<Komentar />
