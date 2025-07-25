@@ -1,6 +1,7 @@
 <script>
 	import Administrasi from '../components/administrasi.svelte';
 	import Dokumentasi from '../components/dokumentasi.svelte';
+	import FloatingKunjungan from '../components/floating_kunjungan.svelte';
 	import Hero from '../components/hero.svelte';
 	import Komentar from '../components/komentar.svelte';
 	import Map from '../components/map.svelte';
@@ -23,4 +24,5 @@
 	<Potensi />
 	<Dokumentasi />
 	<Komentar />
+	<FloatingKunjungan />
 </main>
