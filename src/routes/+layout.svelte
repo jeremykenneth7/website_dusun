@@ -17,6 +17,9 @@
 
 <svelte:head>
 	<title>Dusun Druju Tegal Plosogede - Profil, Potensi, Dokumentasi</title>
+	<meta property="og:title" content="Dusun Druju Tegal Plosogede" />
+	<meta property="og:description" content="Informasi lengkap Dusun Druju Tegal Plosogede." />
+	<meta property="og:url" content="https://drujutegal.com" />
 	<meta
 		name="description"
 		content="Website resmi Dusun Druju Tegal Plosogede. Informasi administrasi, potensi, dokumentasi, dan struktur dusun."
