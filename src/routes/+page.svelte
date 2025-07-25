@@ -2,6 +2,7 @@
 	import Administrasi from '../components/administrasi.svelte';
 	import Dokumentasi from '../components/dokumentasi.svelte';
 	import Hero from '../components/hero.svelte';
+	import Komentar from '../components/komentar.svelte';
 	import Map from '../components/map.svelte';
 	import Map_2 from '../components/map_2.svelte';
 	import Potensi from '../components/potensi.svelte';
@@ -21,4 +22,5 @@
 	<Administrasi />
 	<Potensi />
 	<Dokumentasi />
+	<Komentar />
 </main>
