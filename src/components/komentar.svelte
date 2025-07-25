@@ -22,12 +22,36 @@
 	let komentar = '';
 	let daftarKomentar = [];
 
+	function formatWaktu(dateString) {
+		const date = new Date(dateString);
+		const bulan = [
+			'Januari',
+			'Februari',
+			'Maret',
+			'April',
+			'Mei',
+			'Juni',
+			'Juli',
+			'Agustus',
+			'September',
+			'Oktober',
+			'November',
+			'Desember'
+		];
+		const hari = date.getDate();
+		const namaBulan = bulan[date.getMonth()];
+		const tahun = date.getFullYear();
+		const jam = date.getHours().toString().padStart(2, '0');
+		const menit = date.getMinutes().toString().padStart(2, '0');
+		return `${hari} ${namaBulan} ${tahun} ${jam}.${menit}`;
+	}
+
 	function kirimKomentar() {
 		if (nama.trim() && komentar.trim()) {
 			push(ref(db, 'komentar'), {
 				nama,
 				komentar,
-				waktu: new Date().toLocaleString()
+				waktu: new Date().toISOString()
 			});
 			nama = '';
 			komentar = '';
@@ -72,7 +96,7 @@
 				{#each daftarKomentar as k}
 					<div class="mb-4 rounded-lg bg-white p-4 shadow">
 						<div class="font-bold text-blue-700">{k.nama}</div>
-						<div class="mb-2 text-sm text-gray-500">{k.waktu}</div>
+						<div class="mb-2 text-sm text-gray-500">{formatWaktu(k.waktu)}</div>
 						<div>{k.komentar}</div>
 					</div>
 				{/each}
