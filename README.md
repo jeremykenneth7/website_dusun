@@ -1,39 +1,66 @@
-# sv
+# Website Dusun Druju Tegal
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Website ini merupakan portal resmi Dusun Druju Tegal, Desa Plosogede, Kabupaten Magelang. Dibangun menggunakan [SvelteKit](https://kit.svelte.dev/) dan [TailwindCSS](https://tailwindcss.com/), website ini bertujuan untuk menyediakan informasi seputar profil dusun, potensi, dokumentasi kegiatan, struktur organisasi, serta layanan interaktif bagi warga dan pengunjung.
 
-## Creating a project
+## Fitur Utama
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Profil Dusun**: Informasi umum tentang Dusun Druju Tegal.
+- **Peta Administrasi & Rawan Bencana**: Visualisasi peta wilayah dan titik rawan bencana.
+- **Struktur Organisasi**: Struktur kepengurusan dusun dan pemuda.
+- **Potensi Dusun**: Produk unggulan seperti Slondok dan Pupuk Kompos.
+- **Dokumentasi Kegiatan**: Galeri foto kegiatan warga.
+- **Komentar Pengunjung**: Form interaktif untuk meninggalkan pesan/komentar.
+- **Statistik Kunjungan**: Statistik jumlah pengunjung website secara real-time.
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Teknologi
 
-# create a new project in my-app
-npx sv create my-app
-```
+- [SvelteKit](https://kit.svelte.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Firebase Realtime Database](https://firebase.google.com/products/realtime-database) (untuk komentar & statistik kunjungan)
+- [Keen Slider](https://keen-slider.io/) (galeri dokumentasi)
+- [Leaflet](https://leafletjs.com/) (peta interaktif)
 
-## Developing
+## Instalasi & Pengembangan
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+1. **Clone repository:**
 
-```bash
-npm run dev
+   ```bash
+   git clone https://github.com/username/website_dusun_svelte.git
+   cd website_dusun_svelte
+   ```
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+2. **Install dependencies:**
 
-## Building
+   ```bash
+   npm install
+   ```
 
-To create a production version of your app:
+3. **Konfigurasi Firebase:**
+   - Salin `.env.example` menjadi `.env`
+   - Kontak Admin untuk meminta kredensial Firebase 
 
-```bash
-npm run build
-```
+4. **Jalankan server pengembangan:**
 
-You can preview the production build with `npm run preview`.
+   ```bash
+   npm run dev
+   ```
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
-# website_dusun
+5. **Build untuk produksi:**
+
+   ```bash
+   npm run build
+   ```
+
+6. **Preview hasil build:**
+   ```bash
+   npm run preview
+   ```
+
+## Kontribusi
+
+Kontribusi terbuka untuk pengembangan website ini. Silakan buat pull request atau issue jika ingin menambahkan fitur atau melaporkan bug.
+
+## Lisensi
+
+Website ini dikembangkan oleh Jeremy Kenneth untuk KKN AA.83.023.  
+© 2025 Dusun Druju Tegal, Desa Plosogede, Kabupaten Magelang.
