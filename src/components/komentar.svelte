@@ -1,16 +1,46 @@
 <script>
 	import Sectionwrapper from './sectionwrapper.svelte';
+	import { onMount } from 'svelte';
+	import { initializeApp } from 'firebase/app';
+	import { getDatabase, ref, push, onValue } from 'firebase/database';
+
+	const firebaseConfig = {
+		apiKey: 'AIzaSyAVI0FRUDLLTxkBRYEuAxFKj9xpfkEm5Ck',
+		authDomain: 'websitedusundrujutegal.firebaseapp.com',
+		projectId: 'websitedusundrujutegal',
+		storageBucket: 'websitedusundrujutegal.appspot.com',
+		messagingSenderId: '178102873490',
+		appId: '1:178102873490:web:284c1b78586acdbed0654b',
+		measurementId: 'G-X1JMSD4XT4',
+		databaseURL: 'https://websitedusundrujutegal-default-rtdb.asia-southeast1.firebasedatabase.app/'
+	};
+
+	const app = initializeApp(firebaseConfig);
+	const db = getDatabase(app);
+
 	let nama = '';
 	let komentar = '';
 	let daftarKomentar = [];
 
 	function kirimKomentar() {
 		if (nama.trim() && komentar.trim()) {
-			daftarKomentar = [{ nama, komentar, waktu: new Date().toLocaleString() }, ...daftarKomentar];
+			push(ref(db, 'komentar'), {
+				nama,
+				komentar,
+				waktu: new Date().toLocaleString()
+			});
 			nama = '';
 			komentar = '';
 		}
 	}
+
+	onMount(() => {
+		const komentarRef = ref(db, 'komentar');
+		onValue(komentarRef, (snapshot) => {
+			const data = snapshot.val();
+			daftarKomentar = data ? Object.values(data).reverse() : [];
+		});
+	});
 </script>
 
 <Sectionwrapper id="komentar" class="pb-0">
@@ -31,10 +61,7 @@
 				required
 				class="resize-none rounded-lg border border-gray-300 px-4 py-2 focus:ring-2 focus:ring-blue-400 focus:outline-none"
 			></textarea>
-			<button
-				type="submit"
-				class="rounded-lg px-6 py-2 font-semibold text-black transition"
-			>
+			<button type="submit" class="rounded-lg px-6 py-2 font-semibold text-black transition">
 				Kirim Komentar
 			</button>
 		</form>
