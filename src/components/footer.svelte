@@ -30,7 +30,7 @@
 					Hubungi Kami
 				</h3>
 				<a
-					href="tel:+6281234567890"
+					href="tel:+6282329082780"
 					class="group flex items-center gap-3 text-slate-300 transition-all duration-300 hover:translate-x-1 hover:text-indigo-400"
 				>
 					<div
@@ -52,7 +52,7 @@
 					<span class="text-sm break-all">dusundrujutegal@gmail.com</span>
 				</a>
 				<a
-					href="mailto:dusundrujutegal@gmail.com"
+					href="mailto:ippdtrebornfrom2022@gmail.com"
 					class="group flex items-center gap-3 text-slate-300 transition-all duration-300 hover:translate-x-1 hover:text-indigo-400"
 				>
 					<div
@@ -87,7 +87,7 @@
 					No Telpon Penting
 				</h3>
 				<a
-					href="tel:+6281234567890"
+					href="tel:+6282329082780"
 					class="group flex items-center gap-3 text-slate-300 transition-all duration-300 hover:translate-x-1 hover:text-indigo-400"
 				>
 					<div
