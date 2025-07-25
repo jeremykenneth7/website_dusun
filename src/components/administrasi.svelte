@@ -3,22 +3,22 @@
 	const stats = [
 		{
 			label: 'Penduduk',
-			value: '1.890',
+			value: '464',
 			img: 'https://cdn.digitaldesa.com/statics/profil-v2/assets/total-penduduk-CXnnuYJa.png'
 		},
 		{
 			label: 'Laki-Laki',
-			value: '930',
+			value: '217',
 			img: 'https://cdn.digitaldesa.com/statics/profil-v2/assets/laki-qsjhxY_S.png'
 		},
 		{
 			label: 'Kepala Keluarga',
-			value: '436',
+			value: '150',
 			img: 'https://cdn.digitaldesa.com/statics/profil-v2/assets/kepala-keluarga-BcdRTpvQ.png'
 		},
 		{
 			label: 'Perempuan',
-			value: '960',
+			value: '247',
 			img: 'https://cdn.digitaldesa.com/statics/profil-v2/assets/perempuan-CSZtJeWt.png'
 		},
 		{
@@ -28,7 +28,7 @@
 		},
 		{
 			label: 'Mutasi Penduduk',
-			value: '2',
+			value: '0',
 			img: 'https://cdn.digitaldesa.com/statics/profil-v2/assets/mutasi-penduduk-_1rO7gmp.png'
 		}
 	];
@@ -41,7 +41,7 @@
 			<h3 class="mb-2 text-left text-base sm:text-xl">
 				Beberapa data administrasi penduduk yang berada di Dusun Druju Tegal.
 				<br />
-				Data ini diambil dari data kependudukan yang dikelola oleh Pemerintah Desa.
+				Data ini diambil dari data kependudukan yang dikelola oleh Pemerintah Desa Plosogede Tahun 2019.
 			</h3>
 		</div>
 		<div class="admin-grid mx-0 sm:mx-22">
