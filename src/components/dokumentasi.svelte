@@ -6,6 +6,7 @@
 		{ src: '/dokumentasi/posyandu.jpeg', caption: 'Posyandu' },
 		{ src: '/dokumentasi/sosialisasi.jpeg', caption: 'Sosialisasi Program Kerja' },
 		{ src: '/dokumentasi/tenis_meja.jpeg', caption: 'Perlombaan Tenis Meja' },
+		{ src: '/dokumentasi/senam.jpeg', caption: 'Senam Pagi' },
 		{ src: '/dokumentasi/haji.jpeg', caption: 'Penyambutan Haji' },
 		{ src: '/dokumentasi/colouring.jpg', caption: 'Colouring Day' },
 		{ src: '/dokumentasi/rapat.jpg', caption: 'Rapat Bersama Warga' },
