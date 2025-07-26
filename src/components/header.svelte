@@ -11,9 +11,7 @@
 					<span class="text-white">Dusun Druju Tegal</span>
 				</h1>
 				<h1 class="font-xs">
-					<span class="text-white"
-						>Kabupaten Magelang</span
-					>
+					<span class="text-white">Kabupaten Magelang</span>
 				</h1>
 			</div>
 		</a>
@@ -45,6 +43,11 @@
 				href="#dokumentasi"
 				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400"
 				>Dokumentasi</a
+			>
+			<a
+				href="/admin"
+				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400"
+				>Login Admin</a
 			>
 		</nav>
 	</div>
