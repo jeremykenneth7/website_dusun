@@ -5,6 +5,7 @@
 	import Header from '../components/header.svelte';
 
 	import { openModal } from '../store';
+	import { goto } from '$app/navigation';
 
 	let y;
 	$: outerHeight = 0;
@@ -93,10 +94,11 @@
 			</button>
 			<button
 				on:click={() => {
+					$openModal = false;
 					if (isAdmin) {
 						logout();
 					} else {
-						reroute('/admin');
+						goto('/admin');
 					}
 				}}
 				class="group cursor-pointer border-none p-2 text-left duration-200 outline-none"
