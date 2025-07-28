@@ -1,5 +1,18 @@
 <script>
 	import { openModal } from '../store';
+
+	let isAdmin = false;
+
+	if (typeof window !== 'undefined') {
+		isAdmin = localStorage.getItem('isAdmin') === 'true';
+	}
+
+	function logout() {
+		if (typeof window !== 'undefined') {
+			localStorage.removeItem('isAdmin');
+			location.reload();
+		}
+	}
 </script>
 
 <header class="relative z-20 flex flex-col">
@@ -44,11 +57,21 @@
 				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400"
 				>Dokumentasi</a
 			>
-			<a
-				href="/admin"
-				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400"
-				>Login Admin</a
-			>
+			{#if isAdmin}
+				<button
+					on:click={logout}
+					class="cursor-pointer border-none bg-transparent font-semibold text-white duration-200 hover:text-red-400"
+					style="background:none;outline:none;"
+				>
+					Logout
+				</button>
+			{:else}
+				<a
+					href="/admin"
+					class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400"
+					>Halaman Admin</a
+				>
+			{/if}
 		</nav>
 	</div>
 </header>

@@ -13,6 +13,18 @@
 		$openModal = false;
 		window.location.hash = href;
 	}
+
+	let isAdmin = false;
+	if (typeof window !== 'undefined') {
+		isAdmin = localStorage.getItem('isAdmin') === 'true';
+	}
+
+	function logout() {
+		if (typeof window !== 'undefined') {
+			localStorage.removeItem('isAdmin');
+			location.reload();
+		}
+	}
 </script>
 
 <svelte:head>
@@ -77,6 +89,24 @@
 			>
 				<p class="poppins text-2xl font-semibold duration-200 group-hover:pl-2">
 					Dokumentasi<i class="fa-solid fa-chevron-right pl-4 text-xl"></i>
+				</p>
+			</button>
+			<button
+				on:click={() => {
+					if (isAdmin) {
+						logout();
+					} else {
+						reroute('/admin');
+					}
+				}}
+				class="group cursor-pointer border-none p-2 text-left duration-200 outline-none"
+			>
+				<p class="poppins text-2xl font-semibold duration-200 group-hover:pl-2">
+					{#if isAdmin}
+						Logout <i class="fa-solid fa-chevron-right pl-4 text-xl"></i>
+					{:else}
+						Halaman Admin <i class="fa-solid fa-chevron-right pl-4 text-xl"></i>
+					{/if}
 				</p>
 			</button>
 		</div>
