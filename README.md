@@ -36,24 +36,19 @@ Website ini merupakan portal resmi Dusun Druju Tegal, Desa Plosogede, Kabupaten 
    ```
 
 3. **Konfigurasi Firebase:**
-   - Salin `.env.example` menjadi `.env`
+   - Tulis cp .env.example .env
    - Kontak Admin untuk meminta kredensial Firebase 
 
-4. **Jalankan server pengembangan:**
-
-   ```bash
-   npm run dev
-   ```
-
-5. **Build untuk produksi:**
+4. **Build untuk produksi:**
 
    ```bash
    npm run build
    ```
 
-6. **Preview hasil build:**
+5. **Jalankan server pengembangan:**
+
    ```bash
-   npm run preview
+   npm run dev
    ```
 
 ## Kontribusi
