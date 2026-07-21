@@ -86,7 +86,7 @@
 
 <Sectionwrapper id="administrasi" class="pb-0">
 	<div class="admin-container">
-		<div class="mx-4 flex max-w-4xl flex-col items-start px-2 sm:mx-18 sm:px-6">
+		<div class="flex w-full flex-col items-start px-2 sm:px-6 lg:px-8">
 			<h2 class="text-left text-2xl font-bold sm:text-3xl">ADMINISTRASI PENDUDUK</h2>
 			<h3 class="mb-2 text-left text-base sm:text-xl">
 				Beberapa data administrasi penduduk yang berada di Dusun Druju Tegal.<br />

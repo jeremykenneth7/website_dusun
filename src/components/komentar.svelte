@@ -68,7 +68,7 @@
 </script>
 
 <Sectionwrapper id="komentar" class="pb-0">
-	<div class="container mx-0 rounded-2xl bg-gray-50 p-6 shadow-lg sm:mx-22">
+	<div class="w-full rounded-2xl bg-gray-50 p-6 shadow-lg sm:px-6 lg:px-8">
 		<h2 class="mb-6 text-center text-2xl font-bold">Komentar Pengunjung</h2>
 		<form class="mb-8 flex flex-col gap-4" on:submit|preventDefault={kirimKomentar}>
 			<input
@@ -89,7 +89,7 @@
 				Kirim Komentar
 			</button>
 		</form>
-		<div class="mx-0 mt-4 sm:mx-22">
+		<div class="mt-4 w-full">
 			{#if daftarKomentar.length === 0}
 				<p class="text-center text-gray-500">Belum ada komentar.</p>
 			{:else}

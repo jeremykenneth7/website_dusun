@@ -3,7 +3,7 @@
 </script>
 
 <Sectionwrapper id="product" class="pb-0">
-	<div class="mx-4 flex max-w-4xl flex-col items-start px-2 sm:mx-18 sm:px-6">
+	<div class="flex w-full flex-col items-start px-2 sm:px-6 lg:px-8">
 		<h2 class="text-left text-3xl font-bold">BELI DARI DUSUN</h2>
 		<h3 class="mb-4 text-xl">
 			Layanan yang disediakan promosi produk UMKM Dusun sehingga mampu meningkatkan perekonomian

@@ -13,7 +13,7 @@
 	import StrukturPemuda from '../components/struktur_pemuda.svelte';
 </script>
 
-<main class="flex flex-col">
+<main class="flex w-full flex-col overflow-x-hidden">
 	<Hero />
 	<Sambutan />
 	<Map />
