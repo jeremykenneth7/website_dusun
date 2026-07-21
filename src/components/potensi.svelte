@@ -18,7 +18,7 @@
 				<h4 class="mb-2 text-lg font-semibold">Slondok</h4>
 				<p class="text-center text-gray-700">
 					Slondok merupakan makanan ringan khas berbahan dasar singkong. Produk ini menjadi salah
-					satu ikon kuliner Dusun,
+					satu ikon kuliner Dusun druju
 				</p>
 			</div>
 			<div class="flex flex-col items-center rounded-lg bg-white p-6 shadow-md">
