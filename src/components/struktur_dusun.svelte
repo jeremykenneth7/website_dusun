@@ -11,6 +11,6 @@
 			pembangunan wilayah.
 		</h3>
 		<br>
-		<img src="/struktur/struktur_dusun.png" alt="Struktur Organisasi Dusun Druju Tegal" />
+		<img src="/struktur/struktur_dusun.png" alt="Struktur Organisasi Dusun Druju Tegal" class="w-full max-w-4xl mx-auto" />
 	</div>
 </Sectionwrapper>

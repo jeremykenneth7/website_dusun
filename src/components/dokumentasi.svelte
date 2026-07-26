@@ -3,18 +3,10 @@
 	import 'keen-slider/keen-slider.min.css';
 	import { onMount } from 'svelte';
 	let dokumentasi = [
-		{ src: '/dokumentasi/posyandu.jpeg', caption: 'Posyandu' },
-		{ src: '/dokumentasi/sosialisasi.jpeg', caption: 'Sosialisasi Program Kerja' },
-		{ src: '/dokumentasi/tenis_meja.jpeg', caption: 'Perlombaan Tenis Meja' },
-		{ src: '/dokumentasi/senam.jpeg', caption: 'Senam Pagi' },
-		{ src: '/dokumentasi/haji.jpeg', caption: 'Penyambutan Haji' },
-		{ src: '/dokumentasi/colouring.jpg', caption: 'Colouring Day' },
-		{ src: '/dokumentasi/rapat.jpg', caption: 'Rapat Bersama Warga' },
-		{ src: '/dokumentasi/kerja_bakti.jpeg', caption: 'Kerja Bakti' },
-		{ src: '/dokumentasi/insenerator.jpeg', caption: 'Insenerator' },
-		{ src: '/dokumentasi/movie_night.jpeg', caption: 'Movie Night' },
-		{ src: '/dokumentasi/bimbel.jpeg', caption: 'Bimbingan Belajar' },
-		{ src: '/dokumentasi/ahad_pahing.jpeg', caption: 'Selapanan Ahad Pahing' }
+		{ src: '/dokumentasi/posyandu_2026.jpeg', caption: 'Posyandu' },
+		{ src: '/dokumentasi/senam_2026.jpeg', caption: 'Senam Pagi' },
+		{ src: '/dokumentasi/kerja_bakti_2026.jpeg', caption: 'Kerja Bakti' },
+		{ src: '/dokumentasi/dawis_2026.jpeg', caption: 'Dasawisma' },
 	];
 
 	let slider;

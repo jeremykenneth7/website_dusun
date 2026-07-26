@@ -1,5 +1,34 @@
 <script>
 	import Sectionwrapper from './sectionwrapper.svelte';
+	import ProductCard from './product_card.svelte';
+
+	const whatsappNumbers = ['088299606749', '085813430977', '082314528822'];
+
+	function pickRandomWhatsApp() {
+		const randomIndex = Math.floor(Math.random() * whatsappNumbers.length);
+		return whatsappNumbers[randomIndex];
+	}
+
+	const products = [
+		{
+			title: 'Pupuk Kompos',
+			img: '/potensi/kompos.jpeg',
+			href: 'https://wa.me/6282329082780?text=Halo%20saya%20tertarik%20dengan%20Pupuk%20Kompos',
+			feature: {
+				description: 'Pupuk kompos organik hasil olahan warga Dusun Druju Tegal.',
+				featureList: ['Ramah lingkungan', 'Meningkatkan kesuburan tanah', 'Tersedia dalam berbagai ukuran']
+			}
+		},
+		{
+			title: 'Slondok',
+			img: '/potensi/slondok.jpg',
+			href: `https://wa.me/${pickRandomWhatsApp()}?text=Halo%20saya%20tertarik%20dengan%20Selondok`,
+			feature: {
+				description: 'Produk lokal yang terbuat dari bahan alami dan ramah lingkungan.',
+				featureList: ['Bahan alami', 'Tersedia dalam berbagai ukuran', 'Varian rasa yang menarik']
+			}
+		}
+	];
 </script>
 
 <Sectionwrapper id="product" class="pb-0">
@@ -9,20 +38,11 @@
 			Layanan yang disediakan promosi produk UMKM Dusun sehingga mampu meningkatkan perekonomian
 			masyarakat Dusun Druju Tegal.
 		</h3>
-		<div class="grid grid-cols-1 gap-8 md:grid-cols-2">
-			<a
-				href="https://wa.me/6282329082780?text=Halo%20saya%20tertarik%20dengan%20Pupuk%20Kompos"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="flex flex-col items-center rounded-lg bg-white shadow-md transition hover:shadow-lg"
-			>
-				<img
-					src="/potensi/kompos.jpeg"
-					alt="Pupuk Kompos"
-					class="mb-4 h-40 w-full rounded object-cover"
-				/>
-				<h4 class="mb-4 text-lg font-semibold">Pupuk Kompos</h4>
-			</a>
+
+		<div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 w-full">
+			{#each products as p}
+				<ProductCard title={p.title} imgSrc={p.img} href={p.href} productFeature={p.feature} />
+			{/each}
 		</div>
 	</div>
 </Sectionwrapper>

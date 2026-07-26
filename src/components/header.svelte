@@ -48,9 +48,9 @@
 				>Struktur Dusun</a
 			>
 			<a
-				href="#potensi"
+				href="#product"
 				class="cursor-pointer font-semibold text-white duration-200 hover:text-indigo-400"
-				>Potensi Dusun</a
+				>Produk Dusun</a
 			>
 			<a
 				href="#dokumentasi"

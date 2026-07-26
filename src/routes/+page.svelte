@@ -6,7 +6,6 @@
 	import Komentar from '../components/komentar.svelte';
 	import Map from '../components/map.svelte';
 	import Map_2 from '../components/map_2.svelte';
-	import Potensi from '../components/potensi.svelte';
 	import Product from '../components/product.svelte';
 	import Sambutan from '../components/sambutan.svelte';
 	import StrukturDusun from '../components/struktur_dusun.svelte';
@@ -22,7 +21,7 @@
 	<StrukturPemuda />
 	<Administrasi />
 	<Product />
-	<Potensi />
+	<!-- <Potensi /> -->
 	<Dokumentasi />
 	<Komentar />
 	<FloatingKunjungan />

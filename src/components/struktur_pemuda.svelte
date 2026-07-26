@@ -11,6 +11,6 @@
 			pembangunan komunitas.
 		</h3>
 		<br>
-		<img src="/struktur/struktur_pemuda.png" alt="Struktur Organisasi Pemuda Dusun Druju Tegal" />
+		<img src="/struktur/struktur_new.png" alt="Struktur Organisasi Pemuda Dusun Druju Tegal" class="w-full max-w-4xl mx-auto" />
 	</div>
 </Sectionwrapper>
